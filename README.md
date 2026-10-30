@@ -1,5 +1,5 @@
 # 변정제 · Embedded Systems Portfolio
-
+링크 : https://bot-jeongje.github.io/
 회로 설계부터 펌웨어와 디버깅까지의 개발 경험을 소개하는 정적 포트폴리오입니다.
 
 ## 구성
