@@ -6,7 +6,7 @@
 
 - 핵심 역량: 하드웨어 설계, MCU·RTOS, 계측 기반 디버깅
 - 경력: 쿠첸 인덕션 Control 펌웨어, LIG넥스원 항공 시스템
-- 프로젝트: 모듈형 로봇, STM32 무선 RC카, 밸런싱 로봇, ROS 2 Smart Plant, 국제 캡스톤, Mitsubishi PLC 제어
+- 프로젝트: 모듈형 로봇, STM32 무선 RC카, ROS 2 Smart Plant, 국제 캡스톤, Mitsubishi PLC 제어
 - 프로젝트별 문제 해결 상세, 분류 필터, 모바일 레이아웃, 인쇄 기능
 
 ## 실행 및 게시
@@ -26,7 +26,7 @@ GitHub Pages에서는 `main` 브랜치의 `/ (root)`를 게시 소스로 선택�
 - ROS 프로젝트 기획서: `2팀_ROS를 곁들인 스마트 플랜트_7s_FA.hwp` — 팀 목표와 담당 역할
 - `Action 프로토콜.xlsx` 시트1 — 장치별 Goal·Feedback·Result 명세
 - [변정제 9월 4주차 주간 보고](https://rorobot.atlassian.net/wiki/spaces/robot3/pages/15106067/9+4) — Host 환경 구성, 통신 및 회로 설계 기록
-- [F1/Waffle 소스](https://github.com/7s-FA/AMR/tree/jeongje/F1/waffle) — `jeongje`, 확인 커밋 `02c0d234f0ea24a8a114e49e6b26ee7f21ff0ad9`. Host Action 서버, Nav2 목적지 이동, 리니어 제어를 참고했습니다. 도킹 설명은 제외했습니다.
+- [F1/Waffle 소스](https://github.com/7s-FA/AMR/tree/jeongje/F1/waffle) — `jeongje`, 확인 커밋 `02c0d234f0ea24a8a114e49e6b26ee7f21ff0ad9`. Host Action 서버, Nav2 목적지 이동, 리니어 제어를 참고했습니다. 이전 버전에서는 도킹 설명을 제외했으며, Ver3_2에서는 제공된 PDF의 속도 명령 충돌 해결 사례를 반영했습니다.
 - PLC 자료: 제공된 `.gxw` 프로젝트 및 4개 시연 영상. 설계·실습 경험만 간단히 소개하며 원본 래더 회로를 복원하거나 세부 동작을 추정하지 않았습니다.
 
 ## 수정
@@ -44,3 +44,11 @@ GitHub Pages에서는 `main` 브랜치의 `/ (root)`를 게시 소스로 선택�
 추가 자료 출처:
 - 제공된 `STM32_RC카_미니프로젝트(변정제,김소정,박희연,오은지).pptx`의 사진과 내장 시연 영상
 - [7s_FA 팀 발표 자료](https://canva.link/3b1na90dotvvwlu): 공정 전경과 시연 영상 캡처. 팀 공정 시연과 본인의 호스트 관제·회로·Waffle 연동 역할을 구분했습니다.
+
+## Ver3_2 PDF 기준 업데이트 (2026-10-31)
+
+- 제공된 `변정제_포트폴리오_Ver3_2.pdf` 9쪽을 기준으로 문구와 프로젝트 구성을 맞췄습니다.
+- 모듈형 로봇과 RC카의 담당 역할을 PDF 표현으로 정리하고, PDF에 없는 밸런싱 로봇·PI 제어·RC카 배선 디버깅 설명은 제외했습니다.
+- ROS 2 Smart Plant의 Waffle 주행, SLAM/Nav2, 리니어 모터 연동과 속도 명령 충돌·LiDAR 간섭·연산 및 전원 보완 사례를 반영했습니다.
+- ROS 사진 3장은 해당 PDF에서 추출했으며, 기존 시연 영상과 나머지 사진은 유지했습니다.
+- Mitsubishi PLC 제목과 기술 스택을 PDF에 맞췄습니다.
